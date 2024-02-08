@@ -126,6 +126,16 @@ button:hover {
     height: 70px;
 }
 
+@media (max-width: 600px) {
+    .window {
+        width: 90%;
+        max-width: none;
+    }
+
+    
+}
+
+
 
 
 
