@@ -65,7 +65,7 @@ body {
 
 textarea {
     width: calc(100% - 20px);
-    height: calc(50% - 70px); /* Ajustar según sea necesario */
+    height: calc(50% - 70px); 
     margin-bottom: 10px;
     border: none;
     resize: none;
@@ -74,12 +74,12 @@ textarea {
     border-radius: 5px;
     font-size: 14px;
     outline: none;
-    overflow-y: auto; /* Agregar scrollbar si es necesario */
+    overflow-y: auto; 
 }
 
 .output {
     width: calc(100% - 20px);
-    height: calc(50% - 70px); /* Ajustar según sea necesario */
+    height: calc(50% - 70px); 
     border: none;
     resize: none;
    
@@ -88,9 +88,9 @@ textarea {
     font-size: 14px;
     font-weight: bold;
     outline: none;
-    overflow-y: auto; /* Agregar scrollbar si es necesario */
-    margin-bottom: 10px; /* Espacio entre el textarea y el output */
-    word-wrap: break-word; /* Hacer que respete los saltos de línea */
+    overflow-y: auto; 
+    margin-bottom: 10px; 
+    word-wrap: break-word; 
 }
 
 
@@ -103,7 +103,7 @@ textarea {
     text-align: center;
     border-radius: 5px;
     margin-bottom: 10px;
-    display: none; /* Inicialmente oculto */
+    display: none; 
 }
 
 button {
