@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <title>Encriptador de Texto</title>
+</head>
+<body>
+    <div class="window">
+        <div class="title-bar">
+            <div class="buttons">
+                <div class="close-button"></div>
+                <div class="minimize-button"></div>
+                <div class="maximize-button"></div>
+            </div>
+            <span class="title">Encriptador de Texto</span>
+        </div>
+        <div class="content">
+            <div id="warning-message" class="warning-message">
+                Solo ingresa letras minúsculas sin acentos ni caracteres especiales.
+            </div>
+            <textarea id="input-text" placeholder="Ingrese el texto aquí" cols="30" rows="10"></textarea>
+            <div class="options">
+                <label>
+                    <input type="radio" name="operation" id="encriptar-radio" checked>
+                    Encriptar
+                </label>
+                <label>
+                    <input type="radio" name="operation" id="desencriptar-radio">
+                    Desencriptar
+                </label>
+            </div>
+            <div class="buttons-container">
+                <button id="process-button" onclick="procesarTexto()">Procesar</button>
+                <button id="copy-button" onclick="copiarTexto()">Copiar</button>
+            </div>
+            <div class="output">
+                <p id="output-text"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
